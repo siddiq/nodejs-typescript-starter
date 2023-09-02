@@ -1,0 +1,19 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "prettier", // Use Prettier for code formatting
+    "prettier/@typescript-eslint" // Use Prettier's ESLint rules for TypeScript
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    // Add your specific rules here, or override the recommended ones
+    "@typescript-eslint/explicit-function-return-type": "off", // You may want to customize this rule based on your project's needs
+    "no-unused-vars": "warn", // Make unused variables a warning instead of an error
+    "prefer-const": "error", // Enforce using const where possible
+    "indent": ["error", 2] // Enforce 2-space indentation
+  }
+}

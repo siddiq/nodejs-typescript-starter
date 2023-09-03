@@ -1,0 +1,49 @@
+{
+	"name": "nodejs-typescript-jest-starter",
+	"version": "1.0.0",
+	"main": "src/index.ts",
+	"keywords": [
+		"node",
+		"nodejs",
+		"node.js",
+		"typescript",
+		"jest",
+		"starter",
+		"boilerplate",
+		"testing",
+		"ts-node",
+		"template",
+		"unit-testing"
+	],
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"test": "jest",
+		"build": "tsc",
+		"start:prod": "node dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/siddiq/nodejs-typescript-starter.git"
+	},
+	"author": "Siddiq",
+	"contributors": [
+		{
+			"name": "Siddiq",
+			"email": "siddiq"
+		}
+	],
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/siddiq/nodejs-typescript-starter/issues"
+	},
+	"homepage": "https://github.com/siddiq/nodejs-typescript-starter#readme",
+	"description": "Node.js + TypeScript + Jest = Quick Start",
+	"devDependencies": {
+		"@types/jest": "^29.5.14",
+		"@types/node": "^22.13.0",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.3"
+	}
+}
